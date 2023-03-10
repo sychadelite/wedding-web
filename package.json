@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-wedding-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/color-mode": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@pinia/nuxt": "^0.4.7",
+    "animate.css": "^4.1.1",
+    "daisyui": "^2.51.3",
+    "gsap": "file:assets/module/gsap-bonus.tgz",
+    "mobile-detect": "^1.4.5",
+    "nuxt": "^3.2.0",
+    "pinia": "^2.0.33",
+    "swiper": "^9.1.0"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}

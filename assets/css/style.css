@@ -1,0 +1,32 @@
+html,
+select,
+.drawer-toggle ~ .drawer-content {
+    overflow: overlay;
+}
+
+html::-webkit-scrollbar,
+select::-webkit-scrollbar,
+.drawer-toggle ~ .drawer-content::-webkit-scrollbar {
+  width: 6px;
+  height: 3px;
+}
+
+html::-webkit-scrollbar-track,
+select::-webkit-scrollbar-track,
+.drawer-toggle ~ .drawer-content::-webkit-scrollbar-track {
+  background: #fff0;
+}
+
+html::-webkit-scrollbar-thumb,
+select::-webkit-scrollbar-thumb,
+.drawer-toggle ~ .drawer-content::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(to left, rgb(36 225 187), rgb(0 220 130));
+  box-shadow: inset 0 0 1px 1px rgba(0, 63, 37);
+}
+
+html::-webkit-scrollbar-thumb:hover,
+select::-webkit-scrollbar-thumb:hover,
+.drawer-toggle ~ .drawer-content::-webkit-scrollbar-thumb:hover {
+  background: #2c9e99;
+}
